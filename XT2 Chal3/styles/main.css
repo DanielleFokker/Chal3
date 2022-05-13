@@ -1,0 +1,182 @@
+/* @import url("Noto_Sans/NotoSans-Regular.ttf"); 
+@import url("Noto_Sans/NotoSans-Bold.ttf");  */
+ 
+@font-face{
+  font-family: 'NotoSans';
+  src: url("../font/NotoSans-Regular.ttf");
+}
+
+@font-face{
+  font-family: 'NotoSansBold';
+  src: url("../font/NotoSans-Bold.ttf");
+}
+
+body{
+  background-image: url(../images/sterren.jpg);
+  background-size: cover;
+	color: #21A4D5;
+  font-family: "NotoSans", sans-serif; 
+  font-size: 9pt;
+	margin: 0;
+	padding: 0;
+  border: 0;
+}
+
+h1{
+  margin-left: 10%;
+  font-family: "NotoSansBold";
+  
+}
+
+h2{
+  padding-left: 5%;
+  padding-top: 1%;
+  margin: 0;
+}
+
+.blokFlex{
+  display:flex;
+}
+.blokFlex p {
+  padding-left: 5%;
+}
+
+.blokDun{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:60pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+  
+}
+
+.blokDun p {
+  padding-left: 5%;
+}
+
+.blokDik{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:150pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+  
+}
+
+
+.blokFlex2{
+  display:flex;
+}
+
+.blokFlex2 p {
+  padding-left: 5%;
+} 
+
+
+/* .blokHalf{
+  margin-left: 10%;
+  margin-bottom: 5%;
+  max-width: 80%;
+  height:180pt ;
+  border-radius: 15%;
+  background-color: hsla(197, 82%, 15%, 0.4);
+}
+.blokHalf h2{
+  padding-top: 2%;
+} */
+
+#weer{
+  max-width: 90%; 
+  max-height: 130pt;
+  padding: 5pt;
+  padding-top: 2%;
+  padding-left: 5%;
+  
+}
+
+
+
+  
+@media only screen and (min-width: 721px) and (max-width:1024px) {
+
+  .blokDun, .blokDik, .blokHalf{
+    margin-bottom: 2%;
+
+  }
+
+  /* .blokFlex4{
+  display: flex;
+  }
+
+  #hamsterVoedsel{
+    margin-left: 5%;
+  }
+
+  .blokHalf{
+    width: 37%;
+    margin-bottom: 2%;
+    height: 250pt;
+  } */
+
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1280px) {
+
+  .blokDun, .blokDik, .blokHalf{
+    margin-bottom: 2%;
+  }
+
+  .blokFlex4{
+    display: flex;
+  }
+
+  
+  #hamsterVoedsel{
+    margin-left: 5%;
+  }
+
+ .blokHalf{
+    width: 37%;
+    margin-bottom: 2%;
+    height: 250pt;
+  }
+
+}
+
+@media only screen and (min-width: 1281px) {
+
+  .blokDun, .blokDik{
+    margin-bottom: 2%;
+    max-width: 60%;
+    margin-left: 20%;
+    font-size: 11pt;
+  }
+
+  .blokDun{
+    height: 60pt;
+  }
+
+  .blokDik{
+    height: 180pt;
+  }
+
+  .blokHalf{
+    width: 31%;
+    margin-bottom: 2%;
+    height: 250pt;
+  }
+  
+  .blokFlex4{
+    display: flex;
+    margin-left: 11%;
+  }
+
+  
+  #hamsterVoedsel{
+    margin-left: 5%;
+  
+  }
+  
+}
